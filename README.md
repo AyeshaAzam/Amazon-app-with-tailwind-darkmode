@@ -1,3 +1,6 @@
+### Live Demo : https://amazon-app-with-tailwind-darkmode.netlify.app/
+
+
 ## to build the css: npm run build:css
 
 ## to run the app: use the live server by right click....
