@@ -1,5 +1,8 @@
 ### Live Demo : https://amazon-app-with-tailwind-darkmode.netlify.app/
 
+## Amazon-app : <img src="https://github.com/AyeshaAzam/Amazon-app-with-tailwind-darkmode/blob/master/Amazon-dk.PNG"/>  
+
+
 
 ## to build the css: npm run build:css
 
