@@ -1,0 +1,19 @@
+@tailwind base;
+
+#toggle:checked ~ label div.toggle-dot {
+  /* @apply translate-x-3; */
+  /* @apply px-4 py-2 rounded font-semibold bg-gray-900 text-black; */
+  background-color: orange;
+  cursor: pointer;
+  /* transform: translate-x-6; */
+}
+
+@tailwind components;
+@tailwind utilities;
+
+/* My own Custom CSS here */
+.main-section-banner {
+  background-image: url("https://i.ibb.co/JnmTD12/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}

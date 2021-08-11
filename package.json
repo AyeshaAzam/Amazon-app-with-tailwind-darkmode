@@ -1,0 +1,34 @@
+{
+  "name": "amazon-clone-version2",
+  "version": "1.0.0",
+  "description": "This 3 things we need to add in index.html, to make firebae work:",
+  "main": "cart.js",
+  "scripts": {
+    "build:css": "postcss ./src/tailwind.css -o styles.css",
+    "watch": "watch 'npm run build:css' ./layouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyeshaAzam/Amazon-App-with-vanillaJs-and-tailwindCss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AyeshaAzam/Amazon-App-with-vanillaJs-and-tailwindCss/issues"
+  },
+  "homepage": "https://github.com/AyeshaAzam/Amazon-App-with-vanillaJs-and-tailwindCss#readme",
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "postcss-apply": "^0.12.0",
+    "stylelint-config-recommended": "^5.0.0",
+    "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "autoprefixer": "^10.3.1",
+    "cssnano": "^5.0.7",
+    "postcss": "^8.3.6",
+    "watch": "^1.0.2"
+  }
+}
