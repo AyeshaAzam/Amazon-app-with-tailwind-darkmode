@@ -1,7 +1,8 @@
 ### Live Demo : https://amazon-app-with-tailwind-darkmode.netlify.app/
 
-
 ## to build the css: npm run build:css
+
+## everytime we need to compile the tailwind css file to our public folder: npm run dev
 
 ## to run the app: use the live server by right click....
 
@@ -39,6 +40,8 @@ This 3 things we need to add in index.html, to make firebae work:
 
 ### for adding <!-- Dark Mode -->
 
+## install VScode extension : PostCSS Language Support
+
 ## READ: https://medium.com/html-all-the-things/how-to-quickly-install-tailwind-css-b4dc5431385a
 
 ## Watch : https://www.youtube.com/watch?v=O1aIa_QE1Mc ( installation of tailwind)
@@ -66,3 +69,5 @@ Not working:
 "dev": "TAILWIND_MODE=watch postcss -i ./src/tailwind.css -o styles.css --watch",
 "build": "postcss -i ./src/tailwind.css -o styles.css"
 },
+
+## NOTE: Link the Genereted css file not the custom one in index.html

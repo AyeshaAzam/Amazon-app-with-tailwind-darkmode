@@ -94,25 +94,26 @@ function generateItems(items) {
     let doc = document.createElement("div");
     doc.classList.add("hot-deals-product", "mr-5");
     doc.innerHTML = `
-             <div class="product-image  h-52 w-48 bg-white rounded-lg p-4">
+             <div class="product-image  h-52 w-48 bg-white rounded-lg p-4 dark:bg-gray-50">
                 <img class="w-full h-full object-contain "
                   src="${item.image}">
               </div>
-              <div class=" product-name text-gray-700 font-bold mt-2 text-sm">
+              <div class=" product-name text-gray-700 font-bold mt-2 text-sm dark:text-white">
                 ${item.name}
               </div>
-              <div class="product-make text-green-700 font-bold ">
+              <div class="product-make text-green-700 font-bold dark:text-yellow-500">
               ${item.make}
               </div>
               <!--my-1 is margintop and marginbottom, the y-axis, and for right and left is mx-1-->
               <div class="product-rating text-yellow-300 font-bold my-1">
                 ⭐⭐⭐⭐⭐ ${item.rating}
               </div>
-              <div class="product-price font-bold text-gray-700 text-lg mb-4">
+              <div class="product-price font-bold text-gray-700 text-lg mb-4 dark:text-white">
                ${numeral(item.price).format("$0,0.00")}
               </div>
     `;
 
+    // https://saleem.dev/blog/tailwindcss-v2-enable-dark-mode-using-class/
     let addToCartEL = document.createElement("div");
     addToCartEL.classList.add(
       "Add-to-cart-button",
@@ -126,7 +127,9 @@ function generateItems(items) {
       "rounded",
       "text-white",
       "text-md",
-      "hover:bg-yellow-600"
+      "hover:bg-yellow-600",
+      "dark:bg-gray-700",
+      "dark:hover:bg-gray-800"
     );
     addToCartEL.innerText = "Add to cart";
     addToCartEL.addEventListener("click", function () {

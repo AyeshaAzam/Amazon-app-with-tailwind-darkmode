@@ -1,4 +1,5 @@
-const checkbox = document.querySelector("#toggle");
+// For light and dark switch button
+const checkbox = document.getElementById("toggle");
 console.log("what is in checkbox", checkbox);
 const html = document.querySelector("html");
 console.log("what is in html", html);
@@ -9,6 +10,8 @@ const toggleDarkMode = function () {
 
 toggleDarkMode();
 checkbox.addEventListener("click", toggleDarkMode);
+
+//////////////////////////////////////
 
 // just for testing and the below code works:
 // window.onload = function () {
