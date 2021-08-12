@@ -1,6 +1,9 @@
 # Live Demo : https://amazon-app-with-tailwind-darkmode.netlify.app/
 ### build with vanilla.js, tailwind, firebase, mediaquery, and build with imagine design.
 
+<img src="https://github.com/AyeshaAzam/Amazon-app-with-tailwind-darkmode/blob/master/images/darkmode-dark.PNG" />
+
+<img src="https://github.com/AyeshaAzam/Amazon-app-with-tailwind-darkmode/blob/master/images/darkmode-light.PNG" />
 
 ### everytime we need to compile the tailwind css file to our public folder: 'npm run dev' ( or to to build the css)
 ### to run the app: use the live server by right click....
